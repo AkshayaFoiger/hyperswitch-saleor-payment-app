@@ -12,8 +12,8 @@ import { transactionProcessSessionSyncWebhook } from "./webhooks/saleor/transact
 export default createManifestHandler({
   async manifestFactory(context) {
     const manifest: AppManifest = {
-      id: "app.saleor.hyperswitch",
-      name: "Hyperswitch",
+      id: "app.saleor.hyperswitch-demo",
+      name: "Hyperswitch Demo",
       about: packageJson.description,
       tokenTargetUrl: `${context.appBaseUrl}/api/register`,
       appUrl: `${context.appBaseUrl}`,
