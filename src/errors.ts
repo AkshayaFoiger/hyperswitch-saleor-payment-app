@@ -20,6 +20,7 @@ export const JsonSchemaError = BaseError.subclass("JsonSchemaError");
 export const MissingSaleorApiUrlError = BaseError.subclass("MissingSaleorApiUrlError");
 export const MissingAuthDataError = BaseError.subclass("MissingAuthDataError");
 export const ChannelNotConfigured = BaseError.subclass("ChannelNotConfiguredError");
+export const CheckoutPaymentAlreadyProcessed = BaseError.subclass("CheckoutPaymentAlreadyProcessedError");
 export const UnsupportedEvent = BaseError.subclass("UnsupportedEventError");
 export const UnExpectedHyperswitchPaymentStatus = BaseError.subclass(
   "UnExpectedHyperswitchPaymentStatusError",
